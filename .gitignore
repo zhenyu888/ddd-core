@@ -1,0 +1,8 @@
+*output/
+*log/
+*_local.sh
+*_local.conf
+.idea
+*.swp
+.vscode
+*.log
