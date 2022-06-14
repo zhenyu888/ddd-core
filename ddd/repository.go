@@ -113,7 +113,7 @@ type DBRepository interface {
 	GetWriteDB(ctx context.Context) *gorm.DB
 }
 
-// DBFactory 用来获取一个 *gorm.DB, 具体实现在edu/common_infra库里
+// DBFactory 用来获取一个 *gorm.DB
 type DBFactory interface {
 	// LookupDB 自动选择主从，详细参考dbresolver
 	LookupDB(context.Context) (*gorm.DB, error)
